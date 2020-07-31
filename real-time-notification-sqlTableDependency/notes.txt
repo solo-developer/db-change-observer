@@ -1,0 +1,7 @@
+Run below commands to enable broker service and authentication
+
+1) Alter database [database_name] set enable_broker with rollback immediate
+
+2) ALTER AUTHORIZATION ON DATABASE::[database_name] db TO sa
+
+3) change configuration file accordingly
